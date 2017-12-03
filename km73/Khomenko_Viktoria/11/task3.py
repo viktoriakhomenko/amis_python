@@ -16,6 +16,3 @@ def reverse(list):
 list = input("Enter list: ").split()
 
 print(" ".join(reverse(list)))
-
-        
-        
