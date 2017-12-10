@@ -1,14 +1,14 @@
-"""
-This function finds minimum in list
-Arfs:
-    list: list
-    lenght: lenght of list
-Returns:
-    float number minimum in list
-Raises:
-    ValueError
-"""
 def minimum(list, lenght):
+    """
+    This function finds minimum in list
+    Arfs:
+        list: list
+        lenght: lenght of list
+    Returns:
+        float number minimum in list
+    Raises:
+        ValueError
+    """
     m = max(list)
     if len(list) < 2:
         return float(list[0])
