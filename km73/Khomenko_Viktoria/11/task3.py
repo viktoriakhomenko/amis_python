@@ -1,11 +1,11 @@
-"""
-This function reverse list
-Args:
-    list: list
-Returns:
-    reverse list
-"""
 def reverse(list):
+    """
+    This function reverse list
+    Args:
+        list: list
+    Returns:
+        reverse list
+    """
     if (len(list) < 2):
         return list
     else:
